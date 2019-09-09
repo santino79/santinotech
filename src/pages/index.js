@@ -56,7 +56,7 @@ class STIndex extends React.Component {
               <div className="row">
                 <div className="col-7">
                   
-                  <h2 className="home__big__header">What gets measured, get's managed.</h2>
+                  <h2 className="home__big__header">What gets measured, gets managed.</h2>
                   <p>
                     But that doesn't mean drowning your management team in endless reports and dashboards. The key is 
                     finding which indicators really are key to your business performance - then making sure you 
