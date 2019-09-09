@@ -33,7 +33,7 @@ class ContactIndex extends React.Component {
                 Complete the contact form below and we'll get back to you as soon as possible.
               </p>
 
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true" action="/contact-success">
                 <p>
                   <label><strong>Your Name:</strong></label>
                   <br />
