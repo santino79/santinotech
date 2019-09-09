@@ -1,31 +1,29 @@
-/**
- * Homepage component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-function HomePage() {
-  return (
-    <StaticQuery
-      query={HomePageQuery}
-      render={data => {
-        return (
-          <div className="Column">
+class ServIndex extends React.Component {
+  render() {
+    const { data } = this.props
+    const siteTitle = data.site.siteMetadata.title
+
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title="What We Do"
+          keywords={[`blog`, `data`, `analytics`, `business`,`services`]}
+        />
+
+<div className="Column">
           <div className="MainContent">
             <div className="u-textCenter">
-            <h1 className="bigText">Business analytics isn't just for the big boys.</h1>
-            <h3>Get to know your best customers better and push your business to the next level.</h3>
-            <h4>We can help you do that. Starting today.</h4>
-            <img src="/undraw_predictive_analytics_kf9n.png" alt="Man drawing graph on board" />
+            <h1 className="bigText">What We Do</h1>
+            <img src="/undraw_financial_data_es63.png" alt="Man drawing graph on board" />
             </div>
 
             <div className="u-textLeft">
-              <Link name="services" />
-              <h2 className="home__section__header">What We Do.</h2>
+                <h2 className="home__section__header">Feel like you are drowning in a data lake?</h2>
 
                 Making sense of the mountain of data crushing your business isn't easy. And every day you find yourself
                 getting buried under more and more of it.
@@ -36,6 +34,8 @@ function HomePage() {
                 You know the answers to some of your biggest business problems are in there.
                 <br /><br />
                 But how do you find them? <strong>That's where we come in.</strong>
+
+                <h2>SERVICES.</h2>
 
                 <h3><em>Data strategy.</em></h3>
                 A drains-up audit of what you have, what you need and how you should go about getting it.
@@ -67,61 +67,31 @@ function HomePage() {
                 We offer in-house workshops and training courses to build data literacy in your management team and up-skill your 
                 business subject matter experts to become data analysts themselves.
 
-              <Link name="about" />
-              <h2 className="home__section__header">Who We Are.</h2>
 
-              <h3 className="who__caps">Alan Hylands</h3>
-              <p>
-                <img src="/profile-pic.jpg" alt="Alan Hylands" />
-              </p>
-              Alan graduated in Accounting before switching focus to software development and analytics. He has worked in tech, data and analytics for almost twenty years. 
-              <br /><br />
-              As a data analyst, analytics manager and data consultant, Alan has built up a wealth of knowledge and experience in many industries, including:
-              <ul>
-                <li>Banking</li>
-                <li>Financial Services</li>
-                <li>Healthcare</li>
-                <li>E-commerce</li>
-                <li>Health and Fitness</li>
-              </ul>
-
-              He specialises in finding the intersection of business expertise and analytics to really create value for clients. 
-              From investigating large datasets to bringing the power of automation to business processes, he firmly believes 
-              in the life-changing potential of data and technolgoy.
-              <br /><br />
-              Alan writes a data blog called <a href="https://simpleanalytical.com">Simple Analytical</a> where he shares regular hints, tips, stories and strategies to help 
-              build readers into better data analysts. He is also a contributor to industry leading websites such as Towards Data Science and Hacker Noon.
-
-              <Link name="contact" />
               <h2 className="home__section__header">Get In Touch.</h2>
               <p>
-                This is a brief description of how to get in touch.
+                Want more information on any of the data services we offer? 
+                <br /><br />
+              <a href="/contact" className="button">Book a free consultation now</a>
               </p>
 
             </div>
           </div>
         </div>
-          )
-      }}
-    />
-  )
+
+      </Layout>
+    )
+  }
 }
 
-const HomePageQuery = graphql`
-  query HomePageQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 100, height: 100) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
+export default ServIndex
+
+export const pageQuery = graphql`
+  query {
     site {
       siteMetadata {
-        author
+        title
       }
     }
   }
 `
-
-export default HomePage

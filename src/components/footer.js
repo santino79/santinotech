@@ -6,8 +6,7 @@ export default function Footer() {
     <footer>
       <div className="footer-content">
           © {new Date().getFullYear()} 
-          {` Alan Hylands - Powered by `}
-          <a href="https://santinotech.com">Santinotech</a>
+          {` Santinotech Ltd. (Registered in Northern Ireland, Company Reg No: NI654431)`}
       </div>
     </footer>
   )

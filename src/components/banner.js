@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <h1 className="Banner">
       <Link to="/">
-        Alan Hylands
+        Santinotech
       </Link>
     </h1>
   )

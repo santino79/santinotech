@@ -39,10 +39,18 @@ function Bio() {
               }}
             />
             
+            
             <p>
-            <strong>Alan Hylands</strong> is a writer and solver of difficult data problems from Northern Ireland.
-            <br />
-            Read more articles <a href="\articles">here</a> or follow Alan on <a href="https://twitter.com/alanhylands">Twitter</a>.
+            <h3 className="who__caps">Alan Hylands</h3>
+            Hi, my name is Alan Hylands and I've been working in tech, data and analytics for almost twenty years. 
+            As a data analyst, analytics manager and data consultant, I have built up a wealth of knowledge and experience in many industries, including:
+            <ul>
+              <li>Banking</li>
+              <li>Financial Services</li>
+              <li>Healthcare</li>
+              <li>E-commerce</li>
+              <li>Health and Fitness</li>
+            </ul>  
             </p>
           </div>
         )
@@ -55,7 +63,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
+        fixed(width: 100, height: 100) {
           ...GatsbyImageSharpFixed
         }
       }

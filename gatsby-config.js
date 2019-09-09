@@ -1,28 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: `Alan Hylands`,
-    author: `Alan Hylands`,
-    description: `Personal website of Alan Hylands.`,
-    siteUrl: `https://alanhylands.com/`,
+    title: `Santinotech`,
+    author: `Santinotech Ltd`,
+    description: `Business analytics and data analysis services to help your business grow.`,
+    siteUrl: `https://santinotech.com/`,
     social: {
-      twitter: `alanhylands`,
+      twitter: `santinotech`,
     },
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/blog`,
-    //     name: `blog`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: `pages`,
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/pages`,
+    //     name: `pages`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -58,20 +58,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-20763994-2`,
+        trackingId: `UA-147154058-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Alan Hylands`,
-        short_name: `Alan Hylands`,
+        name: `Santinotech`,
+        short_name: `Santinotech`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#939393`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/san-favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
