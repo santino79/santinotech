@@ -52,8 +52,12 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://santinotech.com/share.png`,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -69,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: `https://alanhylands.com/share.png,`
+          content: `https://santinotech.com/share.png`,
         },
         {
           name: `google-site-verification`,

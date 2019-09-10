@@ -28,27 +28,36 @@ class STIndex extends React.Component {
 
             <img src="/undraw_predictive_analytics_kf9n.png" alt="Man drawing graph on board" />
 
-            <div className="row u-textLeft">
-              <div className="col-5">
-              <img src="/laptops-on-tables-900x600.jpg" alt="Laptops on tables" />
-              </div>
-              <div className="col-7">
-              <h2 className="home__big__header">How Can We Help?</h2>
-              <p>
-                Let's cut out the technical jargon. We work with you to make your business run better. Automating 
-                boring processes to free up your highly skilled team members. Building reporting systems that let 
-                you put your finger on the pulse of your business - right when you need it.
-                <br /><strong>It really is as simple as that.</strong>
-              </p>
-              </div>
-            </div>              
-
+            <h2 className="home__section__header">Becoming an ethical, data-driven business doesn't happen by accident.</h2>
+            <h3>But you don't have to do it on your own.</h3>
             </div>
           </div>
         </div>
 
 
         <div className="MainStripe1">
+          <div className="MainContent">
+
+              <div className="row">
+                <div className="col-5">
+                <img src="/laptops-on-tables-900x600.jpg" alt="Laptops on tables" />
+                </div>
+                <div className="col-7">
+                <h2 className="home__big__header">How Can We Help?</h2>
+                <p>
+                  Let's cut out the technical jargon. We work with you to make your business run better. Automating 
+                  boring processes to free up your highly skilled team members. Building reporting systems that let 
+                  you put your finger on the pulse of your business - right when you need it.
+                  <br /><strong>It really is as simple as that.</strong>
+                </p>
+                </div>
+              </div>              
+
+            </div>
+          </div>
+
+
+        <div className="MainStripe2">
           <div className="MainContent">
 
             <div className="u-Textleft">

@@ -68,14 +68,23 @@ class ServIndex extends React.Component {
                 business subject matter experts to become data analysts themselves.
 
 
-              <h2 className="home__section__header">Get In Touch.</h2>
-              <p>
-                Want more information on any of the data services we offer? 
-                <br /><br />
-              <a href="/contact" className="button">Book a free consultation now</a>
-              </p>
 
             </div>
+          </div>
+        </div>
+
+
+
+        <div className="MainStripe1">
+          <div className="MainContent u-textCenter">
+
+            <h2 className="home__section__header">Want to learn more?</h2>
+                <p>
+                  Get in touch for more information on any of the data services we offer and 
+                  find out how we can help push your business to a new level. 
+                  <br /><br />
+                <a href="/contact" className="button">Book a free consultation now</a>
+                </p>
           </div>
         </div>
 

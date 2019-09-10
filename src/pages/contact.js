@@ -34,6 +34,7 @@ class ContactIndex extends React.Component {
               </p>
 
                 <form name="contact" method="POST" data-netlify="true" action="/contact-success">
+                <input type="hidden" name="form-name" value="contact" />  
                 <p>
                   <label><strong>Your Name:</strong></label>
                   <br />

@@ -1,5 +1,5 @@
 import React from 'react'
-// import SEO from './seo'
+import SEO from './seo'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Banner from './banner'
@@ -21,6 +21,7 @@ export default ({ children }) => (
       <>
         <div className="Header">
           <Banner />
+          <SEO />
         </div>
           <div className="Navigation">
           <Navigation />
