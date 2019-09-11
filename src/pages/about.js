@@ -15,6 +15,7 @@ class AboutIndex extends React.Component {
         <SEO
           title="Who We Are"
           keywords={[`blog`, `data`, `analytics`, `business`,`about`]}
+          
         />
 
         <div className="Column">
