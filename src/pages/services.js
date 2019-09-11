@@ -19,6 +19,7 @@ class ServIndex extends React.Component {
           <div className="MainContent">
             <div className="u-textCenter">
             <h1 className="bigText">What We Do</h1>
+            <h4>Pushing the frontiers of the data revolution.</h4>
             <img src="/undraw_financial_data_es63.png" alt="Man drawing graph on board" />
             </div>
 
@@ -35,7 +36,19 @@ class ServIndex extends React.Component {
                 <br /><br />
                 But how do you find them? <strong>That's where we come in.</strong>
 
-                <h2>SERVICES.</h2>
+                <h3>Why do you need our help?</h3>
+
+                Standing up a full in-house data team could quickly run to half a million in additional costs.
+                 That's just in year one. 
+                And that's before you put any technology into their hands. Factor in the hassle of finding quality, experienced 
+                data professionals in your local area and it's an almost impossible task.
+                <br /><br />
+                <strong>So why should the mega-corporates be the only ones able to take advantage of this data revolution?</strong>
+                <br /><br />
+                They shouldn't. And we make sure they aren't.
+                
+
+                <h2>OUR SERVICES.</h2>
 
                 <h3><em>Data strategy.</em></h3>
                 A drains-up audit of what you have, what you need and how you should go about getting it.
@@ -55,7 +68,7 @@ class ServIndex extends React.Component {
                 that can actually pull the levers to make a difference.
 
                 <h3><em>Data product development.</em></h3>
-                We can turn the firehose of data flowing through your business every day into a long-term competitive 
+                We can turn the daily firehose of data flowing through your business into a long-term competitive 
                 advantage that really pushes your business to the next level.
                 <br /><br />
                 That can be customer facing web and mobile app development to gather the right data in the right way from your customers.

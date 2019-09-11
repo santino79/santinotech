@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: `https://santinotech.com/share.png`,
+          content: `https://santinotech.com/social.png`,
         },
         {
           name: `twitter:card`,
@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: `https://santinotech.com/share.png`,
+          content: `https://santinotech.com/social.png`,
         },
         {
           name: `google-site-verification`,

@@ -141,6 +141,7 @@ h4 {
 
 
 .bigText{
+  font-weight: 500;
   font-size: 4rem;
   line-height: 4rem;
   letter-spacing: -2.3px;

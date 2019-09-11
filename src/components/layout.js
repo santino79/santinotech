@@ -1,7 +1,6 @@
 import React from 'react'
-import SEO from './seo'
 import { StaticQuery, graphql } from 'gatsby'
-
+import SEO from './seo'
 import Banner from './banner'
 import Navigation from './navigation'
 import Footer from './footer'
@@ -19,9 +18,12 @@ export default ({ children }) => (
     `}
     render={data => (
       <>
+        <SEO 
+          title={data.site.siteMetadata.title}
+          description={data.site.siteMetadata.description}
+        />
         <div className="Header">
           <Banner />
-          <SEO />
         </div>
           <div className="Navigation">
           <Navigation />

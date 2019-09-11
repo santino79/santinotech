@@ -38,7 +38,7 @@ class AboutIndex extends React.Component {
               Sounds pretty grim, doesn't it?
               <h3>It doesn't have to be that way.</h3> 
               We support businesses and organisations moving towards a more data-driven future. 
-              That doesn't mean getting rid of all of their human workers and handing the keys over to the machines though.
+              That doesn't mean getting rid of all of their human workers and handing the keys over to the machines.
               <br /><br />
               It's about melding the business knowledge and experience of your people with the right tools, systems and technology 
               to make real differences to your customers lives.
@@ -46,7 +46,8 @@ class AboutIndex extends React.Component {
               Business isn't a battle of "us" vs. "them" where it's all about fleecing the customer for as much as we can 
               and doing a runner with the loot. That's a zero sum game. There are no winners there, only losers.
               <h3>Our Mission.</h3>
-              Our mission is to help promote <strong>data literacy</strong> and the <strong>ethical use of data and technology</strong> across the world.
+              Our mission is to help promote <strong>data literacy</strong> and the <strong>ethical use of data and technology</strong> across the world. 
+              And build some damn fine businesses to be proud to be associated with while we are doing that.
               <br /><br />
               That means improving how we capture, collate, transform and use data to build better data-driven businesses. 
               Ones where our customers don't have to worry that we are spying on them or selling their personal data. 

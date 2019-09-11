@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class STIndex extends React.Component {
+class Index extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -14,22 +14,42 @@ class STIndex extends React.Component {
           title="Business analytics and data analysis services to help your business grow"
           keywords={[`blog`, `data`, `analytics`, `business`]}
         />
+        <div className="MainStripe2">
+          <div className="MainContent">
+
+            <div className="u-textCenter">
+              <h1 className="bigText">Meet your new analytics team.</h1>
+              <h2>Top class data talent at your disposal when you need us.</h2>
+
+              <p>
+                <br />
+                <a href="/contact" className="button">Book your introductory call today</a>
+              </p>
+
+            </div>
+        </div>
+      </div>
+
 
         <div className="Column">
           <div className="MainContent">
-            <div className="u-textCenter">
-            <h1 className="bigText">Think business analytics is just for the big boys?<br />Think again.</h1>
-            <h3>We can help you get to know your best customers better. Starting today.</h3>
-            
+            <div className="u-textLeft">
+
+            <img className="u-textCenter" src="/undraw_predictive_analytics_kf9n.png" alt="Man drawing graph on board" />
+
+            <h2 className="home__section__header">
+            It's not easy becoming a data-driven business.</h2>
+            <h3> We can help you build it from the ground up.</h3>
+
             <p>
-              <br />
-              <a href="/contact" className="button">Book your free introductory call</a>
+              We are a boutique analytics consultancy. 
+              We specialise in helping high growth start-ups and small corporate teams reach their potential quickly.
+              <br /><br />
+              No jargon. No BS. No blinding you with (data) science. Just solving your data problems as we find them. 
+              And helping you use your data to get to know your best customers better.
+            
             </p>
 
-            <img src="/undraw_predictive_analytics_kf9n.png" alt="Man drawing graph on board" />
-
-            <h2 className="home__section__header">Becoming an ethical, data-driven business doesn't happen by accident.</h2>
-            <h3>But you don't have to do it on your own.</h3>
             </div>
           </div>
         </div>
@@ -45,9 +65,10 @@ class STIndex extends React.Component {
                 <div className="col-7">
                 <h2 className="home__big__header">How Can We Help?</h2>
                 <p>
-                  Let's cut out the technical jargon. We work with you to make your business run better. Automating 
-                  boring processes to free up your highly skilled team members. Building reporting systems that let 
-                  you put your finger on the pulse of your business - right when you need it.
+                  We work with you to make your business run better and grow faster.
+                   We'll help build your data roadmap and strategy. Get the proper infrastructure in place to make 
+                  sure your finger is on the pulse of your business. And cut through the noise to find which signals 
+                  you really need to listen to.
                   <br /><strong>It really is as simple as that.</strong>
                 </p>
                 </div>
@@ -83,13 +104,13 @@ class STIndex extends React.Component {
             </div>
 
           </div>
-        </div>
+        </div>        
 
 
         <div className="Column">
           <div className="MainContent">
             <div className="u-textCenter">
-              <h2 class="home__big__header">Want to find out more?</h2>
+              <h2 className="home__big__header">Want to find out more?</h2>
               <br />
               <a href="/contact" className="button">Book a free consultation now</a>
             </div>
@@ -101,7 +122,7 @@ class STIndex extends React.Component {
   }
 }
 
-export default STIndex
+export default Index
 
 export const pageQuery = graphql`
   query {
