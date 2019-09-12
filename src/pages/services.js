@@ -19,7 +19,7 @@ class ServIndex extends React.Component {
           <div className="MainContent">
             <div className="u-textCenter">
             <h1 className="bigText">What We Do</h1>
-            <h4>Pushing the frontiers of the data revolution.</h4>
+            <h4>Pushing the frontiers of the digital revolution.</h4>
             <img src="/undraw_financial_data_es63.png" alt="Man drawing graph on board" />
             </div>
 

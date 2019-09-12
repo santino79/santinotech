@@ -11,8 +11,8 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Business analytics and data analysis services to help your business grow"
-          keywords={[`blog`, `data`, `analytics`, `business`]}
+          title="Data analytics and digital tranformation services to help grow your business"
+          keywords={[`digital`, `transformation`, `technology`, `services`, `data`, `analytics`, `business`]}
         />
         <div className="MainStripe2">
           <div className="MainContent">
@@ -39,15 +39,14 @@ class Index extends React.Component {
 
             <h2 className="home__section__header">
             It's not easy becoming a data-driven business.</h2>
-            <h3> We can help you build it from the ground up.</h3>
+            <h3> We can help you build yours from the ground up.</h3>
 
             <p>
               We are a boutique analytics consultancy. 
-              We specialise in helping high growth start-ups and small corporate teams reach their potential quickly.
+              We specialise in helping small teams harness the power of data and technology and reach their potential quickly.
               <br /><br />
               No jargon. No BS. No blinding you with (data) science. Just solving your data problems as we find them. 
               And helping you use your data to get to know your best customers better.
-            
             </p>
 
             </div>

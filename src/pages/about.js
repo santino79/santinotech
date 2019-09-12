@@ -27,7 +27,7 @@ class AboutIndex extends React.Component {
           </div>
 
             <div className="u-textLeft">
-            <h3>Santinotech is a boutique business analytics and data analysis consultancy.</h3>
+            <h3>Santinotech is a boutique analytics and digital transformation studio.</h3>
   
             <h2 className="home__section__header">Our Purpose.</h2>
             
@@ -38,7 +38,7 @@ class AboutIndex extends React.Component {
               <br /><br />
               Sounds pretty grim, doesn't it?
               <h3>It doesn't have to be that way.</h3> 
-              We support businesses and organisations moving towards a more data-driven future. 
+              We support businesses and organisations moving towards a more digital, data-driven future. 
               That doesn't mean getting rid of all of their human workers and handing the keys over to the machines.
               <br /><br />
               It's about melding the business knowledge and experience of your people with the right tools, systems and technology 
@@ -48,7 +48,7 @@ class AboutIndex extends React.Component {
               and doing a runner with the loot. That's a zero sum game. There are no winners there, only losers.
               <h3>Our Mission.</h3>
               Our mission is to help promote <strong>data literacy</strong> and the <strong>ethical use of data and technology</strong> across the world. 
-              And build some damn fine businesses to be proud to be associated with while we are doing that.
+              And help build some damn fine businesses we can be proud to be associated with while we are doing that.
               <br /><br />
               That means improving how we capture, collate, transform and use data to build better data-driven businesses. 
               Ones where our customers don't have to worry that we are spying on them or selling their personal data. 
@@ -82,7 +82,7 @@ class AboutIndex extends React.Component {
               </ul>
 
               He specialises in finding the intersection of business expertise and analytics to really create value for clients. 
-              From investigating large datasets to bringing the power of automation to business processes, he firmly believes 
+              From investigating large datasets to bringing the power of digital automation to business processes, he firmly believes 
               in the life-changing potential of data and technology.
               <br /><br />
               Alan writes a data blog called <a href="https://simpleanalytical.com">Simple Analytical</a> where he shares regular hints, tips, stories and strategies to help 
