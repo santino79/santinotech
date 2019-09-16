@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Santinotech`,
     author: `Santinotech Ltd`,
-    description: `Building ethical, data-driven businesses | Business Analytics | Data Analysis | Data Product Development`,
+    description: `Building ethical, data-driven businesses from the ground up.`,
     siteUrl: `https://santinotech.com/`,
     social: {
       twitter: `santinotech`,

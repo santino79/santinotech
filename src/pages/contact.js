@@ -27,10 +27,6 @@ class ContactIndex extends React.Component {
 
               <h2 className="home__section__header">Want to know more about how we can help you?</h2>
               <p>
-                  Whether it's more information on how our data strategy audit can help you find the right data path to take 
-                  or a few examples of how we have approached difficult business problems in the past: 
-                  <br /><br />
-                
                 Complete the contact form below and we'll get back to you as soon as possible.
               </p>
 
