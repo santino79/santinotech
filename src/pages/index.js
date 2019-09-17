@@ -23,7 +23,7 @@ class Index extends React.Component {
 
               <p>
                 <br />
-                <a href="/contact" className="button">Book your introductory call today</a>
+                <a href="/contact" className="button">Get in touch to find out more</a>
               </p>
 
             </div>
