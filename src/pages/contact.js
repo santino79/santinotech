@@ -15,19 +15,21 @@ class ContactIndex extends React.Component {
           keywords={[`blog`, `data`, `analytics`, `business`, `contact`]}
         />
 
-<div className="Column">
+        <div className="Column">
           <div className="MainContent">
             <div className="u-textCenter">
             <h1 className="bigText">Get In Touch</h1>
-            <h4>Tell us what's on your mind.</h4>
-            <img src="/undraw_contact_us_15o2.png" alt="Contact us for more information" />
+            <h4>Tell me what's on your mind.</h4>
+            <img src="/undraw_contact_us_15o2.png" alt="Contact for more information" />
             </div>
 
             <div className="u-textLeft">
 
-              <h2 className="home__section__header">Want to know more about how we can help you?</h2>
+              <h2 className="home__section__header">
+                Want to know more about how I can help you?
+              </h2>
               <p>
-                Complete the contact form below and we'll get back to you as soon as possible.
+                Complete the contact form below and I'll get back to you as soon as possible.
               </p>
 
                 <form name="contact" method="POST" data-netlify="true" action="/contact-success">
