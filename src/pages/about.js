@@ -22,8 +22,7 @@ class AboutIndex extends React.Component {
           <div className="MainContent">
             <div className="u-textCenter">
             <h1 className="bigText">About</h1>
-            <h4>I am not afraid to challenge the status quo.</h4>
-            <img src="/undraw_analysis_4jis.png" alt="Man and woman doing analysis" />
+            <h4 className="MainStripe1">I am not afraid to challenge the status quo.</h4>
           </div>
 
             <div className="u-textLeft">

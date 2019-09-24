@@ -19,14 +19,13 @@ class ContactIndex extends React.Component {
           <div className="MainContent">
             <div className="u-textCenter">
             <h1 className="bigText">Get In Touch</h1>
-            <h4>Tell me what's on your mind.</h4>
-            <img src="/undraw_contact_us_15o2.png" alt="Contact for more information" />
+            <h4 className="MainStripe1">Tell me what's on your mind.</h4>
             </div>
 
             <div className="u-textLeft">
 
               <h2 className="home__section__header">
-                Want to know more about how I can help you?
+                Want to find out how I can help you?
               </h2>
               <p>
                 Complete the contact form below and I'll get back to you as soon as possible.

@@ -14,7 +14,7 @@ class Index extends React.Component {
           title="I help small teams solve their difficult data problems"
           keywords={[`digital`, `transformation`, `technology`, `services`, `data`, `analytics`, `business`]}
         />
-        <div className="MainStripe2">
+        <div className="Index__Hero">
           <div className="MainContent">
 
             <div className="u-textCenter">
@@ -30,20 +30,18 @@ class Index extends React.Component {
 
       <div className="Column">
           <div className="MainContent">
-            <div className="u-textLeft">
-
-            <img className="u-textCenter" src="/undraw_predictive_analytics_kf9n.png" alt="Man drawing graph on board" />
-
+            
+          <div className="u-textCenter">
             <h2 className="home__section__header">
-            It's not easy becoming a data-informed business.</h2>
-            <h3>I can help you build yours from the ground up.</h3>
+            Becoming a data-informed business isn't easy.
+            </h2>
+            <h3>I can help build yours from the ground up.</h3>
 
-            <p>
-              I specialise in helping small teams harness the power of data and technology and reach their potential quickly.
+              I specialise in helping small teams harness the power of data and technology to reach their potential quickly.
               <br /><br />
-              No jargon. No BS. No blinding you with (data) science. Just solving your data problems as we find them. 
+              No jargon. No BS. No blinding you with (data) science. 
+              Just solving your data problems as we find them. 
               And helping you use your data to get to know your best customers better.
-            </p>
 
             </div>
           </div>
