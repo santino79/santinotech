@@ -25,9 +25,6 @@ export default ({ children }) => (
         <div className="Header">
           <Banner />
         </div>
-          <div className="Navigation">
-          <Navigation />
-        </div>
         <div className="BodyContent">
           {children}
         </div>

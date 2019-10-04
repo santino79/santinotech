@@ -17,18 +17,12 @@ class ContactIndex extends React.Component {
 
         <div className="Column">
           <div className="MainContent">
-            <div className="u-textCenter">
-            <h1 className="bigText">Get In Touch</h1>
-            <h4 className="MainStripe1">Tell me what's on your mind.</h4>
-            </div>
+            <h1 className="u-textLeft">Get In Touch</h1>
 
             <div className="u-textLeft">
 
-              <h2 className="home__section__header">
-                Want to find out how I can help you?
-              </h2>
               <p>
-                Complete the contact form below and I'll get back to you as soon as possible.
+                Complete the contact form below and we'll get back to you as soon as possible.
               </p>
 
                 <form name="contact" method="POST" data-netlify="true" action="/contact-success">
