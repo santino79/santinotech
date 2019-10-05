@@ -20,18 +20,11 @@ class Index extends React.Component {
             
           <div className="u-textCenter">
             <h2>
-             We build stronger small businesses.
+             Data + Technology = Power.
             </h2>
 
             <hr />
-
-              <h3>Data and analytics consulting, data product development and learning resources to help build better data analysts.</h3>
-              <a href="https://simpleanalytical.com" target="_blank">
-                <img src="/SABanner20190810v2.03.png" alt="Simple Analytical" />
-              </a>
-
-              <hr />
-
+              
               <h2>Want to find out more?</h2>
               
               <a href="/contact/">Get in touch</a> to see what we are working on now or how we could help you bring 

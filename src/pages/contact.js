@@ -25,6 +25,7 @@ class ContactIndex extends React.Component {
                 Complete the contact form below and we'll get back to you as soon as possible.
               </p>
 
+              <div className="ash-form">
                 <form name="contact" method="POST" data-netlify="true" action="/contact-success">
                 <input type="hidden" name="form-name" value="contact" />  
                 <p>
@@ -41,10 +42,10 @@ class ContactIndex extends React.Component {
                   <br /><textarea name="message" cols="40" rows="8"></textarea>
                 </p>
                 <p>
-                  <button type="submit">Send</button>
+                  <button type="submit" className="ash-button">Send</button>
                 </p>
               </form>
-
+              </div>
               
 
               <h3>Company Information</h3>

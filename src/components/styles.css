@@ -92,6 +92,7 @@
     text-align: center;
     font-size: 3.5em; 
     font-weight: 800;
+    margin-bottom: 0;
     /* margin-top: 10px; */
   }
   
@@ -120,29 +121,25 @@
   
   h1 {
     scale: 1.5;
-    margin-bottom: 1;
+    margin-bottom: 0;
     margin-top: 0;
     font-size: 2.5em;
-    margin: 0.67em 0;
+    margin: 0.67em 0; 
     font-weight: 800;
   }
   
   h1, h2, h3, h4 {
     font-family: "Catamaran", sans-serif;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
   }
 
   h2 {
     font-size: 2rem;
     font-weight: 400; 
+    margin-top: 0;
   }
 
-  h3 {
-    font-weight: 300;
-  }
-
-  
   
   .bigQuote {
     font-weight: 400;
@@ -286,6 +283,11 @@
     .Index__Hero {background-image: url('/markus-spiske-matrix-hero-1600x500.jpg'); min-height: 400px; }
 
     .Banner {font-size: 5em;}
+
+    .ash-button {
+      font-size: 18px;
+      height: 55px;
+      padding: 12.5px 25px;} 
   }
   
   .row::after {
@@ -410,4 +412,36 @@
   font-size: 15px;
   font-weight: 200;
   letter-spacing: .3px;
+}
+
+.ash-form {
+  background-color: #e5eaec;
+  border: 3px solid #d6dee1;
+  color: #333;
+  padding: 10px;
+}
+
+.ash-button {
+  background-color: #003300;
+  border: 1px solid #001f00;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  line-height: 1;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  @media (min-width: 768px)
+  {
+  font-size: 18px;
+  height: 55px;
+  padding: 12.5px 25px;} 
 }
