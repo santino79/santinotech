@@ -41,6 +41,7 @@
   
     a:hover{
       color: #939393;
+      text-decoration: underline;
     }
   
     .Navigation {

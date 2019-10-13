@@ -17,12 +17,11 @@ class ContactIndex extends React.Component {
 
         <div className="Column">
           <div className="MainContent">
-            <h1 className="u-textLeft">Get In Touch</h1>
 
             <div className="u-textLeft">
-
+            <h1>Get In Touch</h1>
               <p>
-                Complete the contact form below and we'll get back to you as soon as possible.
+                Complete the contact form below and I'll get back to you as soon as possible.
               </p>
 
               <div className="ash-form">

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -19,17 +19,13 @@ class Index extends React.Component {
           <div className="MainContent">
             
           <div className="u-textCenter">
-            <h2>
-             Data + Technology = Power.
-            </h2>
+            <h2>It's not personal...it's strictly business.</h2>
 
-            <hr />
-              
-              <h2>Want to find out more?</h2>
-              
-              <a href="/contact/">Get in touch</a> to see what we are working on now or how we could help you bring 
-              the power of data and technology to your small business.
-              
+            <p>
+              <Link to="/contact">Get in touch</Link>
+            </p>
+
+  
             </div>
           </div>
         </div>
